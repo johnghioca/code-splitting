@@ -1,0 +1,15 @@
+@import 'assets/styles/variables';
+@import 'assets/styles/mixins';
+
+.H1 {
+  margin: rem(26px 0 25px);
+  font-size: rem(32px);
+  color: $color-red;
+}
+
+@include media(large) {
+  .H1 {
+    font-size: rem(40px);
+    color: green;
+  }
+}

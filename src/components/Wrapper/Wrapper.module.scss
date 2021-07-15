@@ -1,0 +1,11 @@
+@import 'assets/styles/mixins';
+
+.Wrapper {
+  padding: rem(0 10px);
+}
+
+@include media(large) {
+  .Wrapper {
+    padding: rem(0 50px);
+  }
+}
